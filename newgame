@@ -1,13 +1,13 @@
-*player.ext class-subclass=Solidity<width>,class</subclass>=
-*player.ext class-blue mage
-*player.ext class-berserker
-*player.ext class-assassin
-*player.ext class-demon summoner
-*player.ext class-void walker
-*player.ext class-cleric
-*player.ext class-covent
-*player.ext class-white witch
-*player.ext class-black mage
+*player.ext class-subclass=class</subclass>=
+*player.ext class-<blue mage></blue mage>
+*player.ext class-<berserker></berserker
+*player.ext class-<assassin></assassin>
+*player.ext class-<demon summoner></demon summoner>
+*player.ext class-<void walker></void walker>
+*player.ext class-<cleric></cleric>
+*player.ext class-<covent></covent>
+*player.ext class-<white witch><white witch>
+*player.ext class-<black mage></black mage>
 Select your class.
 Blue Mage, Berserker, Assassin, Demon Summoner, Void Walker, Cleric, Covent, White Witch,
  Black Mage.
@@ -40,10 +40,50 @@ press "p key" to open your inentory.
 press "i key" to view your item's stats.
 
 now press keys "q,w,e,r,a,s,d,f" in any order to test out your new spells.
-q=fire               a=chaos energy
-w=ice                s=heavenly energy
-e=obsidian shards    d=ultimate when 99/99atp
-r=diamond shards     f=usetargetedobject
+q=ability 1          a=strafe left
+w=walk forward       s=walk backwards
+e=ability 2          d=strafe right
+r=ability 3          f=usetargetedobject
+mouse button 1=fire
+mouse button 2=ability 4
+mouse button 3=ability 5
+fuelcells are stored in your backpack, access its inventory with the "p key"
+view your fuel cells' stats with the "i key". 
+Each fuel cell is stored in the back pack you collected earlier from the dead collector's body.
+It has room for 8 fuel cells in it.
+Your mana is a derivative of your THRIVEpack's fuel cells.
+The energy from the THRIVEpack is what allows you to cast your magic,
+when you run out of energy in your fuel cells, you run out of mana,
+and you must rely on your atp.
+mana is the inverse function of atp.
+mana must be derived from fuel cells, atp is derived from the unvierse naturally.
+atp gains at a rate of  33 per second with a max of 198atp.
+<jump=spacebar jetpack=double spacebar sprint=left shift></use atp>
+<jump, jetpack, sprint></use atp>
+Health=99/99 Atp=198/198 Mana=99/99 
+Health = 99/198 of the calculations to get the 99/198 mana capped at 99.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Health=99/99 Atp=198/198 Mana=99/99
+ [qwe] ability1 walkforward ability2
+ [asd] strafeleft walkbackward straferight
+  
+camera controls:Default mouse.
+
+
+
+
 
 
 
@@ -53,4 +93,4 @@ of the {x,y,z planar-axis} of the game where movement is controlled by the mouse
 is only allowed while mouse button 3 is being held down.
 digital analog stick controlled via mouse laser. 
 Movement when mouse button 3 is toggled. 
-
+a
